@@ -1,0 +1,73 @@
+.calci {
+    background-color: rgb(240, 238, 238);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 350px;
+    padding: 7px;
+    border-radius: 5px;
+}
+.calci .head {
+    background-color: rgb(144, 33, 13);
+    color: whitesmoke;
+    height: 50px;
+    border-radius: 5px;
+}
+.calci .amount {
+  margin-top: 30px;
+  display: flex;
+    justify-content:space-between;
+}
+.calci .tenure {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.calci .interest {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.calci .btn {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.calci .btn button {
+    font-size: 1.7vw;
+}
+.calci .output {
+    margin-top: 10px;
+    border: 2px solid rgb(181, 179, 179);
+    border-radius: 5px;
+    background-color: white;
+    height: 30vh;
+}
+.calci .output p {
+    text-align: start;
+    margin: 8px;
+}
+input {
+    width: 120px;
+    padding: 7px;
+    border: none;
+}
+input:focus {
+    color: green;
+    background-color: rgb(235, 248, 243);
+}
+.emi {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgreen;
+}
+.details {
+    
+    padding-top: 30px;
+    display: contents;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
