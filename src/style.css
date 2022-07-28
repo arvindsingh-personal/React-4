@@ -7,7 +7,33 @@
     width: 50vw;
     height: 50vh;
     margin-left: 25%;
+    border-radius: 10px;
 }
 .table-div h1 {
     margin-bottom: 0;
+}
+.table-div input {
+    height: 5vh;
+    width: 100%;
+    font-size: 2vw;
+}
+.table-div button {
+    height: 6vh;
+    width: 50%;
+    font-size: 2vw;
+}
+.first_page {
+    background-color: blueviolet;
+    width: 50%;
+    border-radius: 7px;
+    margin:10rem auto;
+}
+.first_page h1 {
+    color: aliceblue;
+}
+.first_page button {
+    margin: 2vw;
+    height: 7vh;
+    width: 30%;
+    font-size: 1.3vw;
 }
