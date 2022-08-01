@@ -4,6 +4,7 @@ import Button from './Button';
 import Counter from './Counter';
 import Countdown from './Countdown';
 import ComponentA from './ComponentA';
+import CurrencyConverter from './CurrencyConverter';
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
 
       <p>Q4. Here is a scenario where the App component has username which it wants to pass to the component D as a prop without passing it through the intermediate components. Make use of useContext hook to perform this.</p>
       <ComponentA />
+
+      <p>Q4. Here is a scenario where the App component has username which it wants to pass to the component D as a prop without passing it through the intermediate components. Make use of useContext hook to perform this.</p>
+      <CurrencyConverter />
     </div>
   );
 }

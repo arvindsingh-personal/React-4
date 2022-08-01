@@ -1,0 +1,42 @@
+.converter {
+    border: 5px solid purple;
+    width: 30vw;
+    margin: 1rem auto;
+    padding: 2vw;
+}
+.converter .amount {
+   text-align:left;
+}
+.converter .amount p{
+    margin-bottom: 0;
+}
+.converter .amount input {
+    width: 100%;
+    height: 5vh;
+    font-size: 2vw;
+}
+.converter .swap {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.converter .swap .icon {
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.converter button {
+    margin-top: 3rem;
+    background-color: purple;
+    border: 0;
+    width: 100%;
+    height: 5vh;
+    color: aliceblue;
+    font-size: 2vw;
+    text-shadow: 1px 1px rgb(197, 160, 160);
+    cursor: pointer;
+
+}
+select {
+    width: 10vw;
+    font-size: 1.5vw;
+}
