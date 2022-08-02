@@ -1,18 +1,24 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-export default function Printusecallback({ num }) {
-  if(num !== ''){
+export default function Printusecallback({ getItems }) {
+  const [items, setItems] =useState([])
+  useEffect(()=>{
+    setItems(getItems())
+    console.log('Updating Items....')
+  },[getItems])
+  
   return (
     <div>
-      <>
-        <p>{Number(num)}</p>
-        <p>{Number(num) + 1}</p>
-        <p>{Number(num) + 2}</p>
-      </>
+      <ul> 
+      {items.map(item=>(
+        <li key={item}>{item}
+        </li>
+      ))}
+
+      </ul>
     </div>
   )
+
 }
-else {
-  return ('');
-}
-}
+
+//export default Printusecallback;
