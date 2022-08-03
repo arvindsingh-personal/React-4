@@ -1,0 +1,58 @@
+{ 
+    "products": [
+    {
+        "id":1,
+        "name":"OnePlus Smart Band: 13 Exercise Modes, Blood Oxygen Saturation (SpO2), Heart Rate & Sleep Tracking, 5ATM+Water & Dust Resistant( Android & iOS Compatible)",
+        "price":1599,
+        "subtotal": 1599,
+        "oldprice":18999,
+        "image":"images/digital_watch.jpg",
+        "quantity":1
+    },
+    {
+        "id":2,
+        "name":"Zebronics Jet Premium Gaming Headphone with LED Light for earcups, 40mm Neodymium Drivers, 2 Meter Braided Cable, Flexible mic, Suspension Headband, 3.5mm + USB Connector & in-line Controller",
+        "price":849,
+        "subtotal": 849,
+        "oldprice":999,
+        "image":"images/headphone.jpg",
+        "quantity":1
+    },
+    {
+        "id":3,
+        "name":"Amazon Brand - Solimo Stainless Steel Insulated 24 Hours Hot or Cold Bottle Flask, 1000 ml, Silver",
+        "price":699,
+        "subtotal": 699,
+        "oldprice":899,
+        "image":"images/dustbin.jpg",
+        "quantity":1
+    },
+    {
+        "id":4,
+        "name":"amsung Galaxy Tab A7 26.31 cm (10.4 inch), Slim Metal Body, Quad Speakers with Dolby Atmos, RAM 3 GB, ROM 32 GB Expandable, Wi-Fi+4G, Grey",
+        "price":22999,
+        "subtotal": 22999,
+        "oldprice":25999,
+        "image":"images/tablet.jpg",
+        "quantity":1
+    },
+    {
+        "id":5,
+        "name":"Pigeon Amaze Plus Electric Kettle (14289) with Stainless Steel Body, 1.5 litre, used for boiling Water, making tea and coffee, instant noodles, soup etc. 1500 Watt (Silver)",
+        "price":599,
+        "subtotal": 599,
+        "oldprice":799,
+        "image":"images/mug.jpg",
+        "quantity":1
+    },
+    {
+        "id":6,
+        "name":"Logitech B170 Wireless Mouse, 2.4 GHz with USB Nano Receiver, Optical Tracking, 12-Months Battery Life, Ambidextrous, PC/Mac/Laptop - Black",
+        "price":545,
+        "subtotal": 545,
+        "oldprice":1099,
+        "image":"./images/mouse.jpg",
+        "quantity":1
+    }
+]
+}

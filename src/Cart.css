@@ -1,0 +1,125 @@
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e0e0e0 !important;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+    height: 100%;
+}
+
+.main .section1 {
+    background-color: white;
+    /* height: 100%; */
+}
+
+.main .section1 .head {
+    text-align: left;
+    padding-left: 2vw;
+}
+
+.main .section1 .head h1 {
+    font-weight: 300;
+    font-size: 3vw;
+}
+
+.main .section1 .item .descrip {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5vw 0 1.5vw;
+    text-align: left;
+    width: 60vw;
+}
+
+.main .section1 .item .descrip .part1 img {
+    width: 15vw;
+    height: 25vh;
+}
+
+.main .section1 .item .descrip .part2 {
+    width: 32vw;
+}
+
+.main .section2 {
+    background-color: white;
+    width: 25vw;
+    height: 35vh;
+    padding: 2vw;
+    text-align: start;
+}
+
+.main .section2 .part1 {
+    display: flex;
+}
+
+.main .section2 .part1 #div1 {
+    margin-right: 1vh;
+    color: #067D62;
+}
+
+.main .section1 .part1 #div1 i {
+    font-size: 1.8vw;
+
+}
+
+.main .section1 .descrip .part2 #para1 {
+    font-size: 1.7vw;
+}
+
+.main .section1 .descrip .part2 #para2 {
+    font-size: 1vw;
+    color: green;
+}
+
+.main .section1 .descrip .part2 #para3 {
+    font-size: 1.2vw;
+    color: rgb(83, 83, 83);
+    margin-bottom: 0.5vh;
+}
+
+.main .section1 .descrip .part2 #para4 {
+    margin-top: 0;
+}
+
+.main .section2 .part2 button {
+    margin-top: 2vh;
+    width: 100%;
+    padding: 0.7vw;
+    font-size: 1.4vw;
+    background-color: rgb(252, 189, 55);
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+/* Empty Cart */
+
+.Empty_Cart {
+    background-color: #e0e0e0 !important;
+    height: 80vh;
+    margin-top: 0;
+    padding-top: 23vh;
+}
+
+.Empty_Cart .Cart .div1 i {
+    font-size: 15vw;
+    color: rgb(252, 189, 55);
+}
+
+.Empty_Cart .Cart .div2 h1 {
+    font-size: 3vw;
+    font-weight: 500; 
+}
+
+.Empty_Cart .Cart .div3 a {
+    background: rgb(252, 189, 55);
+    padding: 8px 14px 10px;
+    cursor: pointer;
+    font-size: 2vw;
+    font-weight: 600;
+    width: 80vw;
+    margin: 22vh auto 0;
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+    border-radius: 7px;
+    margin-bottom: 5vh;
+}

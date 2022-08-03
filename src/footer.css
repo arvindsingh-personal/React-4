@@ -1,0 +1,191 @@
+.footer {
+    background-color: #232F3E;
+    width: 99vw;
+}
+
+.footer .div1 {
+    height: 8vh;
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #FFF;
+    background-color: #37475A;
+}
+
+.footer .div2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+.footer .div2 {
+    text-align: left;
+    align-items: flex-start;
+}
+
+.footer .div2 div h3 {
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 1.6vw;
+}
+
+.footer .div2 div p {
+    color: rgb(233, 233, 233);
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.footer .div2 div p:hover {
+    text-decoration: underline;
+}
+
+.footer .nav-footer-line {
+    border-top: 1px solid #3a4553;
+    margin-top: 40px;
+}
+
+.footer .div3 .part1 {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .div3 .part1 p img {
+    width: 8vw;
+    height: 5vh;
+}
+
+.footer .div3 .part1 p input[type='number'] {
+    width: 8vw;
+    background-color: #1a2433;
+    border: 0;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 3px;
+    margin-left: 6vw;
+    padding: 0.6vw;
+    color: #DDD;
+}
+
+::placeholder {
+    color: #DDD;
+    font-size: 1.3vw;
+}
+
+.footer .div3 .part1 {
+    margin-top: 3vh;
+}
+
+.footer .div3 .part1 p input[type='number']:focus {
+    outline: none;
+}
+
+.footer .div3 .part2 {
+    margin-bottom: 3vh;
+}
+.footer .div3 .part2 #div1 p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer .div3 .part2 #div2 p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+.footer .div3 .part2 #div1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.footer .div3 .part2 #div1 p {
+    margin: 1vw;
+    color: #DDD;
+    font-size: 1.2vw;
+    margin-bottom: 0;
+}
+
+.footer .div3 .part2 #div2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.footer .div3 .part2 #div2 p {
+    margin: 1vw;
+    color: #DDD;
+    font-size: 1.2vw;
+    margin-top: 2vh;
+}
+
+.footer .div4 {
+    background-color: #131A22;
+    color: #DDD;
+    padding: 3vw 1vw 2vw 1vw;
+}
+
+.footer .div4 .part1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer .div4 .part1 div {
+    font-size: 1vw;
+}
+
+.footer .div4 .part1 div #sec1 {
+    margin-bottom: 2vh;
+}
+
+.footer .div4 .part1 div #sec1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer .div4 .part1 div #sec1 p {
+    margin-top: 0;
+    margin-bottom: 0.5vh;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.footer .div4 .part1 div #sec1 p:not(:first-child) {
+    color: #999;
+    font-size: 1vw;
+    font-weight: 200;
+}
+
+.footer .div4 .part1 div #sec2 {
+    margin-top: 4vh;
+}
+
+.footer .div4 .part1 div #sec2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer .div4 .part1 div #sec2 p {
+    margin-top: 0;
+    margin-bottom: 0.5vh;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.footer .div4 .part1 div #sec2 p:not(:first-child) {
+    color: #999;
+    font-size: 1vw;
+    font-weight: 200;
+}
+.footer .div4 .part2 {
+    display: flex;
+    justify-content: center;
+}
+.footer .div4 .part2 p {
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin: 6vh 1vw;
+}
